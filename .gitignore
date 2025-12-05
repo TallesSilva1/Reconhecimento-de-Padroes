@@ -1,0 +1,31 @@
+# Arquivo de variáveis de ambiente (NUNCA subir)
+.env
+*.env
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache e compilados Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Checkpoints do Jupyter
+.ipynb_checkpoints/
+
+# Pastas de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Configurações de editor
+.vscode/

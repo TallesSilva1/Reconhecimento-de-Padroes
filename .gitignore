@@ -1,6 +1,12 @@
 # Arquivo de variáveis de ambiente (NUNCA subir)
 .env
 *.env
+Código_do_País_de_Nascimento_ou_Naturalização.xlsx
+dados_disciplinas.txt
+Dicionário de Variáveis.xls
+DM_ALUNO.CSV
+DM_DOCENTE.CSV
+
 
 # Ambiente virtual
 venv/

@@ -12,11 +12,11 @@ Reconhecimento-de-Padroes\DM_DOCENTE.CSV
 
 # Agora, mão na massa!
 
-Primeiramente verificamos se haviam dados nulos na base, que poderiam prejudicar. Fizemos uma correlação e avaliamos se habia dados que não faziam sentido, encontramos notas de alunos com valores iguais a -1. Removemos esses dados e refizemos a correlação, melhorando a acuracidade do modelo, que passaria a desconsiderar esses dados. Os alunos com nota -1 haviam feito equivalencia ou teriam sido dispensados. 
+Primeiramente verificamos se haviam dados nulos na base, que poderiam prejudicar. Fizemos uma correlação e avaliamos se havia dados que não faziam sentido e encontramos notas de alunos com valores iguais a -1. Removemos esses dados e refizemos a correlação, melhorando a acuracidade do modelo, que passaria a desconsiderar esses dados. Os alunos com nota -1 haviam feito equivalencia ou teriam sido dispensados. 
 
 ![alt text](image-1.png)
 
-Rodando o DBScan notammos que os clustes 0 e 2 são de alunos aprovados, os demais, reprovados. Há uma grande correlação entre alunos faltantes e reprovações. Há relação fraca entre a matricula do aluno e numero de faltas e também o ano de ingresso e numero de faltas.
+Antes de rodar o DBScan fizemos uma normalização dos dados. Quando rodamos o DBScan notammos que os clustes 0 e 2 são de alunos aprovados, os demais, reprovados. Há uma grande correlação entre alunos faltantes e reprovações. Há relação fraca entre a matricula do aluno e numero de faltas e também o ano de ingresso e numero de faltas.
 
 ![alt text](image.png)
 

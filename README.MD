@@ -4,11 +4,7 @@ pip install requirements.txt
 
 # Depois, por favor, coloque os seguintes arquivos na pasta raiz
 
-Reconhecimento-de-Padroes\Código_do_País_de_Nascimento_ou_Naturalização.xlsx  
-Reconhecimento-de-Padroes\dados_disciplinas.txt  
-Reconhecimento-de-Padroes\Dicionário de Variáveis.xls  
-Reconhecimento-de-Padroes\DM_ALUNO.CSV  
-Reconhecimento-de-Padroes\DM_DOCENTE.CSV  
+Reconhecimento-de-Padroes\DM_ALUNO.CSV
 
 # Agora, mão na massa!
 
